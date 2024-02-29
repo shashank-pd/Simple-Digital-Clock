@@ -1,0 +1,50 @@
+body{
+    background: linear-gradient(45deg, #08001f , #30197d);
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 900px;
+    height: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(235, 0, 255, 0.11);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.clock{
+    font-size: 120px;
+    color: white;
+}
+
+.clock span{
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+
+.clock span::after {
+font-size: 16px;
+position: absolute;
+bottom: -5px;
+left: 50%;
+transform: translate(-50%);
+}
+
+#hrs::after{
+    content: 'Hours';
+}
+
+#min::after{
+    content: 'Minutes';
+}
+#sec::after{
+    content: 'Seconds';
+}
+
+
