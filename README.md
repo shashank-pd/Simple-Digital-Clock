@@ -1,3 +1,4 @@
+# Simple Digital Clock ⏰
 ## 🕰️ Overview
 This clock project provides a simple and visually appealing interface to display the current time, including hours, minutes, seconds, and whether it is AM or PM. The project comprises three main files: HTML for structure (`index.html`), CSS for styling (`style.css`), and JavaScript for dynamic updates (`script.js`).
 
